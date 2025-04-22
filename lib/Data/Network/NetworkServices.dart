@@ -1,10 +1,10 @@
 import 'dart:convert';
-import 'dart:io';
+
 
 import 'package:http/http.dart' as http;
-import 'package:http/http.dart%20';
+
 import 'package:stylo_buddy/Data/AppException.dart';
-import 'package:stylo_buddy/Utils/Utils.dart';
+
 import 'package:stylo_buddy/ViewModel/LoginAndSignUp.dart';
 class NetworkServices
 {
@@ -60,7 +60,7 @@ class NetworkServices
   }
 
 
-  dynamic ReturnResponse(Response response)
+  dynamic ReturnResponse(http.Response response)
   {
     final statuscode=response.statusCode;
     switch(statuscode)
