@@ -1,13 +1,13 @@
-import 'dart:io';
+
 
 import 'package:app_links/app_links.dart';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:http/http.dart%20';
+
 import 'package:stylo_buddy/Utils/Utils.dart';
 import 'package:stylo_buddy/Views/GeneralPage.dart';
-import 'package:stylo_buddy/Views/Homepage.dart';
+
 import 'package:stylo_buddy/Views/LoginPage.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
